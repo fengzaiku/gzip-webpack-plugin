@@ -1,8 +1,8 @@
 # gzip-webpack-plugin
-    webpack gz文件夹/文件压缩插件
+    webpack gz文件/文件夹压缩插件
 
 ## Installation
-    Webpack 版本需要 >4.0:
+    Webpack >4.0:
 
     npm install --save-dev gzip-webpack-plugin
 
