@@ -45,6 +45,18 @@
 ## Example
 
 ````javascript
-
-
+    const path = require('path');
+    const GzipWebpackPlugin = require('gzip-webpack-plugin');
+   
+    module.exports = {
+        mode: "development",
+        entry: path.join(__dirname, 'test.js'),
+        output: {
+            path: path.resolve(__dirname,'dist'),
+            filename: "bundle.js"
+        },
+        plugins: [
+            new GzipWebpackPlugin(),
+        ]
+    };
 ````
