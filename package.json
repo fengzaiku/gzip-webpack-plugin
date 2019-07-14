@@ -1,7 +1,7 @@
 {
   "name": "gzip-webpack-plugin",
   "version": "1.0.0",
-  "description": "",
+  "description": "webpack gz plugin",
   "main": "bin/index.js",
   "keywords": [
     "webpack",
