@@ -9,8 +9,6 @@ module.exports = {
         filename: "bundle.js"
     },
     plugins: [
-        new GzipWebpackPlugin({
-            delSource: true
-        }),
+        new GzipWebpackPlugin(),
     ]
 };
