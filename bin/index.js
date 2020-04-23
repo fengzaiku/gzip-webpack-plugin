@@ -65,7 +65,7 @@ class GzipWebpackPlugin {
                     rootPath,
                     outputFilePath
                 );
-
+				
                 this.pack.entry({ name: relativeNameAndPath }, source);
 
                 // Delete the source
